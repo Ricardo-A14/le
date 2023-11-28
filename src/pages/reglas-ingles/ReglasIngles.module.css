@@ -1,0 +1,55 @@
+.english_rules {
+    padding-top: 70px;
+    min-height: 100vh;
+    color: black;
+    background-color: whitesmoke;
+    /* background-color: darkseagreen; */
+}
+
+.verb_rules {
+    display: flex;
+    flex-direction: column;
+    /* background-color: dimgray; */
+}
+
+.english_rules h1 {
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: bisque; */
+}
+
+.verbs_container {
+    width: 98%;
+    margin: 0 auto;
+    margin: 10px;
+    border-radius: 13px;
+    padding: 4px;
+    background-color: white;
+    /* background-color: cadetblue; */
+}
+
+.english_rules h2 {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 18px;
+    /* background-color: bisque; */
+}
+
+.english_rules p {
+    width: 98%;
+    margin: 6px auto;
+    /* background-color: aliceblue; */
+}
+
+.english_rules ul {
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    list-style: none;
+    /* background-color: aquamarine; */
+}
+
+.english_rules span {
+    font-weight: bold;
+}

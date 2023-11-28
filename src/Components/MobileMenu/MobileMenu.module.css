@@ -1,0 +1,32 @@
+.mobile_menu {
+    position: fixed;
+    display: flex;
+    top: 60px;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 40px;
+    z-index: 20;
+    background-color: white;
+    /* background-color: papayawhip; */
+}
+
+.mobile_menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+    list-style: none;
+    /* background-color: chartreuse; */
+}
+
+.mobile_menu ul li {
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.mobile_menu ul li a {
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+.rules {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 2px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    /* background-color: aquamarine; */
+}
+
+.rule_container {
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 14px;
+    background-color: white;
+    /* background-color: antiquewhite; */
+}
+
+.rules h1 {
+    text-align: center;
+    margin: 0 4px;
+    font-size: 18px;
+    color: black;
+}
+
+.rules h2 {
+    margin: 4px 8px;
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+}
+
+.rules p {
+    margin: 6px;
+    letter-spacing: 0.06em;
+    color: black;
+}
+
+.rules ul {
+    padding: 0 8px;
+    margin: 0;
+    list-style: none;
+    letter-spacing: 0.06em;
+    color: black;
+    /* background-color: chartreuse; */
+}
+
+.li {
+    width: 98%;
+    margin: 6px 0;
+    /* background-color: teal; */
+}
+
+.rules span {
+    font-weight: bold;
+}

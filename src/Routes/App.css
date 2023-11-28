@@ -1,0 +1,78 @@
+.app {
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    /* background-color: burlywood; */
+}
+
+.words_container {
+    display: flex;
+    align-items: end;
+    max-width: 1400px;
+    height: 38px;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* background-color: blueviolet; */
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 30px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+
+.titles span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 100%;
+    margin: 0 4px;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: white;
+    background-color: #4e4c6b;
+}
+
+.titles .pronunciation_t {
+    width: 140px;
+}
+
+.titles .meaning {
+    width: 280px;
+}
+
+
+@media(max-width: 760px) {
+    .titles {
+        width: 80%;
+    }
+}
+
+@media(max-width: 660px) {
+    .titles {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 530px) {
+    .titles {
+        font-size: 14px;
+    }
+
+    .titles .meaning {
+        width: 270px;
+    }
+}
+
+@media(max-width: 410px) {
+    .titles .meaning {
+        width: 230px;
+    }
+}
