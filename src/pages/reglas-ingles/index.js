@@ -14,14 +14,14 @@ const EnglishRules = () => {
                     <h2>Verbos regulares</h2>
 
                     <p>
-                        Son aquellos que siguen un patrón predecible en su conjugación en tiempos pasados, generalmente añadiendo "-ed" al infinitivo. Ejemplos:
+                        Son aquellos que siguen un patrón predecible en su conjugación en tiempos pasados, generalmente añadiendo -ed al infinitivo. Ejemplos:
                     </p>
                     <ul>
                         <li>
-                            <span>-</span> Walk "Caminar" Walk<span>ed</span> "Caminó"
+                            <span>-</span> Walk Caminar Walk<span>ed</span> Caminó
                         </li>
                         <li>
-                            <span>-</span> Talk "Hablar" talk<span>ed</span> "Habló"
+                            <span>-</span> Talk Hablar talk<span>ed</span> Habló
                         </li>
 
                     </ul>

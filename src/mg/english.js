@@ -827,16 +827,16 @@ const FindRepeatedWords = () => {
         return element === word.toLowerCase();
     });
 
-    console.log(repeatedWord);
+    // console.log(repeatedWord);
 
     if (repeatedWord.length > 1) {
         repeatedPosition = findWord.indexOf(word)
     } else {
         repeatedPosition = null;
     }
-    console.log(`¿Does the word exist? ${findWord.includes(word)}`);
+    // console.log(`¿Does the word exist? ${findWord.includes(word)}`);
 
-    console.log(`Repeated position: ${repeatedPosition}`);
+    // console.log(`Repeated position: ${repeatedPosition}`);
 }
 
 // FindRepeatedWords();

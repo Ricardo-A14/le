@@ -4,7 +4,7 @@ import { useState } from "react";
 const useInitialState = () => {
 
     const [notesState, setNotesState] = useState(false);
-    const [wordCounter, setWordCounter] = useState([]);
+    const [wordCounter, setWordCounter] = useState(0);
     const [activeMobileMenu, setActiveMobileMenu] = useState(false);
 
 

@@ -16,8 +16,8 @@ const Word = ({ word, index }) => {
     recognition.interimResult = true;
   }, []);
 
-  const { wordCounter, setWordCounter } = useContext(AppContext);
   const [backgroundColor, setBackgroundColor] = useState('red');
+  const { wordCounter, setWordCounter } = useContext(AppContext);
 
   const newWordsCounter = [];
 
@@ -35,7 +35,7 @@ const Word = ({ word, index }) => {
       setWordCounter(JSON.parse(getCounter));
     }
 
-  }, [index]);
+  }, [index, setWordCounter]);
 
   const HandleBackground = () => {
 

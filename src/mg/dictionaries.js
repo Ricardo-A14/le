@@ -1604,8 +1604,8 @@ const DeleteWords = () => {
 
     // console.log(irreVerbs.length);
     // console.log(irreVerbs);
-    console.log(phraVerbs.length);
-    console.log(phraVerbs);
+    // console.log(phraVerbs.length);
+    // console.log(phraVerbs);
 }
 DeleteWords();
 
